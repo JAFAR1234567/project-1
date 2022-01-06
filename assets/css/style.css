@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .........................................
+Common style
+............................................*/
+h1{
+  text-transform: capitalize;
+}
+h1 span {
+  color: orange;
+}
+a {
+  text-decoration: none;
+  background-color: rgb(243, 139, 156);
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 7px;
+  text-transform: capitalize;
+  margin: 2px 0;
+  display: inline-block;
+}
+.img_box {
+  width: 100%;
+  height: 100%;
+}
+.img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .........................................
+top section style Start
+............................................*/
+.top_left h1 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+}
+.top_left h1::after {
+  position: absolute;
+  width: 4px;
+  height: 112px;
+  content: "";
+  background-color: pink;
+  top: 20px;
+  left: -15px;
+  border-radius: 5px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_left {
+  max-width: 50%;
+}
+.top_left p {
+  margin: 20px 0;
+}
+.top_right {
+  max-width: 40%;
+}
+
+/* .........................................
+Middle section style Start
+............................................*/
+
+.middle {
+  padding: 60px 0;
+}
+.middle h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 50px;
+}
+.box_container {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 100%;
+  padding: 50px 40px;
+  border-radius: 15px;
+}
+.box .img_container {
+  height: 120px;
+  width: 120px;
+}
+.box .img_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box h3 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.box p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.mission {
+  background-color: #edf5f6;
+}
+.vission {
+  background-color: #ffeeee;
+  margin: 0 25px;
+}
+.goal {
+  background-color: #fff4d6;
+}
+
+/* .........................................
+Common section style Start
+............................................*/
+.common_section {
+  padding: 40px 0;
+  display: flex;
+}
+.common_section p{
+  max-width: 80%;
+}
+
+.common_img_box {
+  width: 350px;
+  height: 350px;
+}
+.common_img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.common_content h1 {
+  margin-top: 40px;
+}
+.common_content p {
+  margin: 30px 0;
+}
+.pr {
+  padding-right: 70px;
+}
+
+/* .........................................
+Team section style Start
+............................................*/
+
+.team_section{
+  padding: 50px 0;
+}
+.team_section h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.team_container{
+  display: flex;
+  justify-content: space-between;
+}
+.gap{
+  margin: 0 30px;
+}
+.team_box{
+  text-align: center;
+  box-shadow: 0px 1px 3px 1px rgb(201, 181, 181);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px 20px;
+  border-radius: 7px;
+  max-width: 30%;
+}
+
+.team_img{
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border:1px solid orange;
+  border-radius: 50%;
+}
+.team_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 50%;
+}
+.team_content .title{
+  margin: 20px 0 2px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #8a8a91;
+}
+.team_content h4{
+  font-style: italic;
+  font-size: 14px;
+  color: rgb(238, 79, 106);
+}
+.team_content p{
+  margin: 10px 0 20px;
+  padding: 0 10px;
+  font-size: 15px;
+  color: #797a83;
+  text-transform: capitalize;
+}
+.social{
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ margin: 10px 0 20px;
+}
+.social i{
+  font-size: 30px;
+}
+.facebook{
+  color: 	#4267B2;
+}
+.twitter{
+  color: #1DA1F2;
+}
+.whatsapp{
+  color: #25D366;
+}
+/* .........................................
+Footer section style Start
+............................................*/
+
+footer{
+  text-align: center;
+  margin-top: 35px;
+  background-color: #0B0D17;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+footer h1{
+  color: #fff;
+  font-size: 30px;
+  margin: 10px 0;
+}
+footer h1 span{
+  color: rgb(245, 59, 90);
+}
+footer p{
+  color: rgb(221, 214, 214);
+  font-size: 14px;
+}
+
+/* style End */
