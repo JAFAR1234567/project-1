@@ -130,7 +130,8 @@ Common section style Start
   display: flex;
 }
 .common_section p{
-  max-width: 80%;
+  max-width: 90%;
+  line-height: 32px;
 }
 
 .common_img_box {
@@ -147,12 +148,14 @@ Common section style Start
   margin-top: 40px;
 }
 .common_content p {
-  margin: 30px 0;
+  margin: 30px 0 12px;
 }
 .pr {
   padding-right: 70px;
 }
-
+.common_content a{
+  margin: 0;
+}
 /* .........................................
 Team section style Start
 ............................................*/
